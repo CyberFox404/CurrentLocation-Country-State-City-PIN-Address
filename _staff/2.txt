@@ -1,0 +1,51 @@
+SUGNAL
+COUNTRI CODE
+2 mnc
+7728 lac
+10246401 cellid
+0
+37.340463 lat
+55.810959 lon
+1000
+5
+1
+1458874310
+1486724845
+0
+
+
+
+https://www.opencellid.org/cell/get?token=pk.9d7b9700de5bc0b91607623d499ef837&mcc=454&mnc=04&cellid=43191&lac=7500&format=json
+
+{"lat":22.322312,"lon":114.2202,"mcc":454,"mnc":4,"lac":7500,"cellid":43191,"averageSignalStrength":0,"range":900,"samples":1,"changeable":1,"radio":"","rnc":0,"cid":0,"tac":0,"sid":0,"nid":0,"bid":0,"message":null}
+
+
+
+UMTS,250,2,7728,10254312,0,37.410507202148,55.757675170898,1000,2,1,1458874310,1478051492,0
+
+
+https://www.opencellid.org/cell/get?token=pk.9d7b9700de5bc0b91607623d499ef837&mcc=250&mnc=2&cellid=35988272&lac=1413&format=json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,psc,tac,pci,sid,nid,bid",
+
+mcc,mnc,lac,cellid,lon,lat,signal,measured_at,rating,speed,direction,act,ta,psc,tac,pci,sid,nid,bid
+100,2,434,9200,9.436598,52.892139,4,1389472208000,5.4,0,0,GPRS,3,,,,,,
+
+
+
+csv2geojson.py -i 250.csv -o 250.json
