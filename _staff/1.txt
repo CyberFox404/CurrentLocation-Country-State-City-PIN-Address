@@ -1,0 +1,6 @@
+pk.9d7b9700de5bc0b91607623d499ef837
+
+
+https://opencellid.org/ocid/downloads?token=pk.9d7b9700de5bc0b91607623d499ef837&type=mcc&file=250.csv.gz
+
+curl -F "key=pk.9d7b9700de5bc0b91607623d499ef837" -F "datafile=@/hh/mydata.json;type=text/plain" http://opencellid.org/measure/uploadJson
